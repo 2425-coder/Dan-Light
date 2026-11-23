@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="contenedor menu">
+
+            <a href="index.html" class="logo">
+                <span class="logo-circulo">NG</span>
+                Nathaly Gómez
+            </a>
+
+            <nav class="navegacion">
+                <a href="index.html">Inicio</a>
+                <a href="proyectos.html" class="activo">Proyectos</a>
+                <a href="Sobre_mí.html">Sobre mí</a>
+                <a href="Contacto.html">Contacto</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- PRESENTACIÓN -->
+        <section class="pagina-proyectos">
+            <div class="contenedor">
+
+                <div class="encabezado-proyectos">
+                    <p class="etiqueta">PORTAFOLIO</p>
+                    <h1>Mis <span>proyectos.</span></h1>
+
+                    <p class="intro-proyectos">
+                        Explora algunos de mis trabajos en
+                        diseño gráfico, fotografía, identidad
+                        de marca y diseño web.
+                    </p>
+                </div>
+                <div class="filtros-proyectos">
+
+                    <button class="filtro activo"
+                            data-filtro="todos">
+                        Todos
+                    </button>
+                <!-- GALERÍA DE PROYECTOS -->
+                <div class="galeria-proyectos">
+
+                    <!-- PROYECTO 1 -->
+                    <article class="proyecto-card"
+                             data-categoria="web">
+
+                        <div class="proyecto-imagen">
+                            <img src="PÁGINA_WEB.png"
+                                 alt="Página web IWOMI">
+                        </div>
+
+                        <div class="proyecto-info">
+                            <span class="proyecto-tipo">
+                                DISEÑO WEB
+                            </span>
+                            <h3>Página web IWOMI</h3>
+                            <p>
+                                Diseño de la pantalla principal
+                                para IWOMI by Matty's Tejidos.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- PROYECTO 2 -->
+                    <article class="proyecto-card"
+                             data-categoria="fotografia">
+
+                        <div class="proyecto-imagen">
+                            <img src="PAISAJE.jpeg"
+                                 alt="Fotografía de paisaje">
+                        </div>
+
+                        <div class="proyecto-info">
+                            <span class="proyecto-tipo">
+                                FOTOGRAFÍA
+                            </span>
+                            <h3>Fotografía de paisaje</h3>
+                            <p>
+                                Captura de paisajes naturales
+                                explorando la composición,
+                                perspectiva e iluminación.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- PROYECTO 3 -->
+                    <article class="proyecto-card"
+                             data-categoria="grafico">
+
+                        <div class="proyecto-imagen">
+                            <img src="POST_MT.png"
+                                 alt="Post de Matty's Tejidos">
+                        </div>
+
+                        <div class="proyecto-info">
+                            <span class="proyecto-tipo">
+                                DISEÑO GRÁFICO
+                            </span>
+                            <h3>Post para Matty's Tejidos</h3>
+                            <p>
+                                Diseño de contenido publicitario
+                                para Instagram de la tienda
+                                Matty's Tejidos.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- PROYECTO 4 -->
+                    <article class="proyecto-card"
+                             data-categoria="fotografia">
+
+                        <div class="proyecto-imagen">
+                            <img src="M_RETRATO.jpeg"
+                                 alt="Fotografía de retrato">
+                        </div>
+
+                        <div class="proyecto-info">
+                            <span class="proyecto-tipo">
+                                FOTOGRAFÍA
+                            </span>
+                            <h3>Fotografía de retrato</h3>
+                            <p>
+                                Sesión fotográfica enfocada
+                                en la expresión, iluminación
+                                y composición del retrato.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- PROYECTO 5 -->
+                    <article class="proyecto-card"
+                             data-categoria="grafico">
+
+                        <div class="proyecto-imagen">
+                            <img src="af_drogas.jpeg"
+                                 alt="Afiche de prevención">
+                        </div>
+
+                        <div class="proyecto-info">
+                            <span class="proyecto-tipo">
+                                DISEÑO GRÁFICO
+                            </span>
+                            <h3>Afiche de prevención</h3>
+                            <p>
+                                Diseño de un afiche para una
+                                campaña de prevención del
+                                consumo de drogas.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- PROYECTO 6 -->
+                    <article class="proyecto-card"
+                             data-categoria="marca">
+
+                        <div class="proyecto-imagen">
+                            <img src="LOGOTIPOS.jpeg"
+                                 alt="Diseño de logotipos">
+                        </div>
+
+                        <div class="proyecto-info">
+                            <span class="proyecto-tipo">
+                                IDENTIDAD DE MARCA
+                            </span>
+                            <h3>Creación de logotipos</h3>
+                            <p>
+                                Desarrollo de propuestas de
+                                identidad visual y logotipos
+                                para diferentes marcas.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+     <footer id="contacto" class="footer">
+        <div class="contenedor">
+
+            <p class="etiqueta-footer">
+                LLAMADO A LA ACCIÓN
+            </p>
+
+            <a href="mailto:tu-correo@ejemplo.com"
+               class="contacto-grande">
+                <span>
+                    ¿Tienes un proyecto en mente?<br>
+                    Hablemos.
+                </span>
+                <span class="flecha-contacto">→</span>
+            </a>
+
+            <div class="footer-inferior">
+
+                <p>© 2026 Nathaly Gómez</p>
+
+                <div class="redes">
+                    <a href="https://www.instagram.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">Instagram</a>
+
+                    <a href="https://www.behance.net/"
+                       target="_blank"
+                       rel="noopener noreferrer">Behance</a>
+
+                    <a href="https://www.youtube.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">YouTube</a>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
